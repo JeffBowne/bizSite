@@ -1,0 +1,93 @@
+
+body {
+	background-image: url(../images/redsparklebackground.jpg);
+	font-family: "Helvetica", sans-serif;
+}
+
+
+.cornerlogo {
+	width: 25%;
+	margin-bottom: -80px;
+}
+
+nav {
+	list-style: none;
+	text-align: right;
+	background-color: black;
+	max-width: 75%;
+	margin: 25px auto 30px auto;
+	border-right: solid white 7px;
+	border-radius: 10px 10px 100px 100px;
+}
+nav ul {
+	padding: 7px;
+	margin: 0;
+}
+nav li {
+	display: inline;
+	margin-left: 40px; 
+	margin-right: 10px;
+	padding: 0;
+	font-size: 1.5vw;
+}
+nav a {
+	border-top: solid black 4px;
+	border-bottom: solid black 4px;
+	color: white;
+	text-decoration: none;
+				transition-duration: .8s;
+
+}
+nav a:hover {
+	border-top: solid white 4px;
+	border-bottom: solid white 4px;
+}
+nav a:visited {
+}
+nav a:hover:visited {
+}
+
+
+
+
+
+
+
+.content {
+	/*background-color: white;*/
+	background-image: url(../images/pearloidbackground.jpg);
+	max-width: 85%;
+	margin: 0 auto;
+	height: 600px;
+	border-top: double black 5px;
+	border-bottom: double black 5px;
+	border-left: double black 5px;
+	border-right: double black 5px;
+	border-radius: 30px 30px 30px 30px;
+}
+.content h1 {
+	padding: 50px 20px 0 20px;
+}
+.aboutblurb {
+	padding: 50px 20px 0 20px;
+}
+
+
+
+
+
+
+
+.social-media {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+}
+.social-media img {
+	max-width: 2.5vw;
+	margin-top: 15px;
+}
+.social-media a {
+	float: left;
+	clear: left;
+}
