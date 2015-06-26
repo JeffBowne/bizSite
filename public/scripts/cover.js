@@ -11,22 +11,22 @@ $('body').fadeIn(2000);
 
 
 
-$('body').click(function(event) {
+// $('body').click(function(event) {
 
 
-newLocation = this.href;
+// newLocation = this.href;
 
-$('body').fadeOut(500, newpage);
+// $('body').fadeOut(500, newpage);
 
-});
+// });
 
 
 
-function newpage() {
+// function newpage() {
 
-window.location = newLocation;
+// window.location = newLocation;
 
-}
+// }
 
 });
 
