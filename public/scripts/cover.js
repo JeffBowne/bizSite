@@ -2,12 +2,18 @@
 $(document).ready(function() {
 
 
+$('.delayfade').css('display', 'none');
+
+$(".animsition").animsition({
+  // options
+}).one('animsition.end',function(){
 
 
+$('.delayfade').fadeIn(2000);
 
-$('body').css('display', 'none');
+})
 
-$('body').fadeIn(2000);
+
 
 
 
