@@ -9,7 +9,7 @@ $(".animsition").animsition({
 }).one('animsition.end',function(){
 
 
-$('.delayfade').fadeIn(2000);
+$('.delayfade').fadeIn(1500);
 
 })
 
